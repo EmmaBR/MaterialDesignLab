@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ContactsActivity">
+
+    <item
+        android:id="@+id/add_contact"
+        android:title="add"
+        android:icon="@drawable/ic_launcher"
+        app:showAsAction="always"
+        android:onClick="onOptionsItemSelected">
+    </item>
+
+</menu>
